@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentinfo
+[
+<!ELEMENT studentinfo (student)>
+<!ELEMENT student (Name,RegNo,Branch,address)>
+<!ELEMENT Name (First_Name,Last_Name)>
+<!ELEMENT First_Name (#PCDATA)>
+<!ELEMENT Last_Name (#PCDATA)>
+<!ELEMENT RegNo (#PCDATA)>
+<!ELEMENT Branch (#PCDATA)>
+<!ELEMENT address (dno.,street,city,pincode,Ph.No,alternate.no)>
+<!ELEMENT dno. (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>
+<!ELEMENT Ph.No (#PCDATA)>
+<!ELEMENT alternate.no (#PCDATA)>
+]>
+<studentinfo>
+    <student>
+        <Name>
+            <First_Name></First_Name>
+            <Last_Name></Last_Name>
+        </Name>
+        <RegNo></RegNo>
+        <Branch></Branch>
+        <address>
+            <dno.></dno.>
+            <street></street>
+            <city></city>
+            <pincode></pincode>
+            <Ph.No></Ph.No>
+            <alternate.no></alternate.no>
+        </address>
+    </student>
+</studentinfo>
